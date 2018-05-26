@@ -1,7 +1,10 @@
 # Deck of Cards
 A React.js web app to a deal a hand of cards from a deck until no more cards can be dealt.
 
-Play now: https://jsfiddle.net/kn9n8Lwe/3/
+Play now: 
+https://jsfiddle.net/kn9n8Lwe/3/
+or 
+https://codepen.io/jayanthm/collab/3b778f57cef5d88ef675df0dd3e71c1e/
 
 ## Approach
 I began by creating an array of 52 cards to represent the "deck" for this simulation. This deck was then stored in the state in order to keep track of it from anywhere in the code. I would then select 5 cards randomly from this deck (using rand function) to generate a hand. As I selected a hand of cards, I would make sure to remove them from the deck in order to ensure we don't pick the same cards again. This hand of cards was also stored in the state to basically keep track of cards that have already been dealt so we can render this entire list of dealt cards.
